@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>survey_form</title>
+<link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1 id="title" class=> Restaurant Evaluation Survey</h1>
+			<p id="description" class="description text-center">
+			       Please let us know how was the food and service.</p>
+		</header>
+		<form id="survey-form">
+			<div class="form-group">
+				<label id="day-visited" for="dayofvisit">Day Visited:</label>
+				<input type="date" name="day_visited" id="dayofvisit" class="form-control" placeholder="Enter your day of visit" required>
+			</div>
+	<div class="form-group">
+			<label id="dine_in_take_out">Dine In / Take Out: </label>
+		<label>
+        <input
+          name="Dine/take"
+          value="dine"
+          type="radio"
+          class="input-radio"
+          checked
+        >Dine In</label>
+        <label>
+        <input
+          name="Dine/take"
+          value="take-out"
+          type="radio"
+          class="input-radio"
+        >Take Out</label>
+			</div>
+	<div class="form-group">
+				<label id="food-quality">Food Quality:</label>
+		<label>
+        <input
+          name="user-recommend5"
+          value="Excellent"
+          type="radio"
+          class="input-radio"
+        />Excellent</label>
+        <label>
+        <input
+          name="user-recommend5"
+          value="Good"
+          type="radio"
+          class="input-radio"
+        />Good</label>
+        <label>
+        <input
+          name="user-recommend5"
+          value="Average"
+          type="radio"
+          class="input-radio"
+        />Average</label>
+		<label>
+        <input
+          name="user-recommend5"
+          value="Dissatisfied"
+          type="radio"
+          class="input-radio"
+        />Dissatisfied</label>
+        
+	</div>
+	<div class="form-group">
+				<label id="cleanliness">Cleanliness:</label>
+		<label>
+        <input
+          name="user-recommend4"
+          value="Excellent"
+          type="radio"
+          class="input-radio"
+        />Excellent</label>
+        <label>
+        <input
+          name="user-recommend4"
+          value="Good"
+          type="radio"
+          class="input-radio"
+        />Good</label>
+        <label>
+        <input
+          name="user-recommend4"
+          value="Average"
+          type="radio"
+          class="input-radio"
+        />Average</label>
+		<label>
+        <input
+          name="user-recommend4"
+          value="Dissatisfied"
+          type="radio"
+          class="input-radio"
+        />Dissatisfied</label>
+        
+	</div>
+	<div class="form-group">
+				<label id="Order-Accuracy">Order-Accuracy:</label>
+		<label>
+        <input
+          name="user-recommend3"
+          value="Excellent"
+          type="radio"
+          class="input-radio"
+        />Excellent</label>
+        <label>
+        <input
+          name="user-recommend3"
+          value="Good"
+          type="radio"
+          class="input-radio"
+        />Good</label>
+        <label>
+        <input
+          name="user-recommend3"
+          value="Average"
+          type="radio"
+          class="input-radio"
+        />Average</label>
+		<label>
+        <input
+          name="user-recommend3"
+          value="Dissatisfied"
+          type="radio"
+          class="input-radio"
+        />Dissatisfied</label>
+        
+	</div>
+	<div class="form-group">
+				<label id="Speed-of-Service">Speed of Service:</label>
+		<label>
+        <input
+          name="user-recommend2"
+          value="Excellent"
+          type="radio"
+          class="input-radio"
+        />Excellent</label>
+        <label>
+        <input
+          name="user-recommend2"
+          value="Good"
+          type="radio"
+          class="input-radio"
+        />Good</label>
+        <label>
+        <input
+          name="user-recommend2"
+          value="Average"
+          type="radio"
+          class="input-radio"
+        />Average</label>
+		<label>
+        <input
+          name="user-recommend2"
+          value="Dissatisfied"
+          type="radio"
+          class="input-radio"
+        />Dissatisfied</label>
+        
+	</div>
+	<div class="form-group">
+				<label id="value">Value:</label>
+		<label>
+        <input
+          name="user-recommend1"
+          value="Excellent"
+          type="radio"
+          class="input-radio"
+        />Excellent</label>
+        <label>
+        <input
+          name="user-recommend1"
+          value="Good"
+          type="radio"
+          class="input-radio"
+        />Good</label>
+        <label>
+        <input
+          name="user-recommend1"
+          value="Average"
+          type="radio"
+          class="input-radio"
+        />Average</label>
+		<label>
+        <input
+          name="user-recommend1"
+          value="Dissatisfied"
+          type="radio"
+          class="input-radio"
+        />Dissatisfied</label>
+        
+	</div>
+	<div class="form-group">
+				<label id="Overall-Experience">Overall Experience:</label>
+		<label>
+        <input
+          name="user-recommend"
+          value="Excellent"
+          type="radio"
+          class="input-radio"
+        />Excellent</label>
+        <label>
+        <input
+          name="user-recommend"
+          value="Good"
+          type="radio"
+          class="input-radio"
+        />Good</label>
+        <label>
+        <input
+          name="user-recommend"
+          value="Average"
+          type="radio"
+          class="input-radio"
+        />Average</label>
+		<label><input
+          name="user-recommend"
+          value="Dissatisfied"
+          type="radio"
+          class="input-radio"
+        />Dissatisfied</label>
+        
+        
+	</div>
+	<div class="form-group">
+      <p>Would you recommend this restaurant to a friend?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Maybe</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Not sure</label
+      >
+    </div>
+ <div class="form-group">
+      <p>
+        Which thing you liked most?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="Food">Food</option>
+        <option value="Interior">Interior</option>
+        <option value="Service">Service</option>
+        <option value="Cuisine">Cuisine</option>
+      </select>
+    </div>   
+<div class="form-group">
+      <p>
+        What would you like to see improved?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="Food variety"
+          type="checkbox"
+          class="input-checkbox"
+        />Food variety</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="Cuisine"
+          type="checkbox"
+          class="input-checkbox"
+        />Cuisine</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="interior"
+          type="checkbox"
+          class="input-checkbox"
+        />Interior</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="hospitality"
+          type="checkbox"
+          class="input-checkbox"
+        />Hospitality</label>  
+    </div>
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    
+  <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+  </div>
+		</form>
+
+</div>
+</body>
+</html>
